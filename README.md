@@ -1,6 +1,3 @@
-Parfait Honey 💫, voici ton README complet généré **dans un seul bloc de code**, prêt à copier-coller sur GitHub, en respectant exactement ton prompt :
-
-```
 # MON PREMIER CRM - Gestionnaire de Contacts
 
 ## 🚀 Présentation
@@ -26,40 +23,33 @@ Mon Premier CRM est une application web pour gérer vos contacts facilement. Int
 2. Créer et activer l'environnement virtuel puis installer les dépendances :  
 
 **Windows**
-```
-
+```bash
 py -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
-
 ```
 
 **Mac/Linux**
-```
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python app.py
-
 ```
 
 Le backend sera accessible sur `http://localhost:5000`
 
 3. Ouvrir un autre terminal pour le frontend :  
-```
-
+```bash
 cd frontend
 npm install
 npm run dev
-
 ```
 L'application sera accessible sur `http://localhost:5173` (ou le port indiqué par Vite)
 
 ## 📂 Structure du projet
-```
-
+```text
 mini-premier-CRM/
 ├── backend/       # Serveur Flask
 ├── frontend/      # Application React
@@ -86,4 +76,5 @@ LinkedIn : Neil Belmond FOKO FEGUEM
 ## 📄 Licence
 MIT License - © 2025 Neil Belmond FOKO FEGUEM  
 Voir LICENSE.txt pour détails
+
 
